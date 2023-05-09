@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 1056px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container{
+    width: 1056px;
+    background-color: rgb(61, 90, 128);
+    min-height: 150px;
+    border-radius: 5px;
+    padding: 30px;
+    -webkit-box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2);
+box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2);
+}
+
+h1{
+    font-size: 43px;
+    color: white;
+}
+h2{
+    font-size: 33px;
+    color: white;
+    margin: 10px 0px;
+}
+
+header input{
+    width: 1000px;
+    height: 40px;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    outline: navy;
+    border: none;
+}
+.btn{
+    display: flex;
+    margin-top: 20px;
+    width: 430px;
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid white;
+    color: aliceblue;
+}
+.main{
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 40px;
+    width: 1056px;
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+    -webkit-box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2);
+box-shadow: 9px 4px 48px 11px rgba(34, 60, 80, 0.2); 
+}
+
+.cont{
+    width: 1056px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    gap: 200px;
+}
+
+
+.cont input {
+    font-size: 18px;
+    text-align: center;
+    border: none;
+}
+
+.name {
+    width: 300px;
+  
+}
+h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+footer{
+    margin: 50px 0px;
+}
+
+footer input{
+    width: 350px;
+    height: 40px;
+}
+
+.bn{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.prem{
+    color: rgb(166, 166, 47);
+    width: 35px;
+    height: 35px;
+    background-color: rgb(219, 219, 219);
+}
+
+.del{
+    color: red;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(222, 218, 218);
+}
+
+.yellow {
+    color: rgb(166, 166, 47) ;
+}
+
+img{
+    width: 30px;
+   
+    
+}
+
+
